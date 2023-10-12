@@ -1,0 +1,89 @@
+.titre{
+    color: blue;
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+}
+.diplome {
+    color: black;
+    font-size: 30px;
+    justify-content: left;
+    flex-direction: column;
+    flex: content;
+    border: 2px black solid;
+    width: 200px;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 0, 0, 0.759);
+    text-shadow: 2px 2px 2px black;
+}
+.diplome1 {
+    font-size: 15px;
+}
+.experience{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+.experience1 {
+    color: rgba(255, 0, 0, 0.759);
+    text-shadow: 2px 2px 2px black;
+}
+.info{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    border: black groove;
+    width: 200px;
+}
+
+.info1{
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.759);
+    text-shadow: 2px 2px 2px black;
+}
+.atouts1{
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.759);
+    text-shadow: 2px 2px 2px black;
+    text-align: right;
+}
+
+.atouts{
+    text-align: right;
+
+    }
+    .competences1{
+        font-size: 20px;
+        color: rgba(255, 0, 0, 0.759);
+        text-shadow: 2px 2px 2px black;
+        text-align: right;
+    }
+    .competences{
+        text-align: right;
+    }
+
+    /*     */
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; }
+        .div3 { grid-area: 1 / 3 / 2 / 4; }
+        .div4 { grid-area: 2 / 3 / 3 / 4; }
+        .div5 { grid-area: 1 / 2 / 2 / 3;
+        text-align: center; }
+        .div6 { grid-area: 2 / 2 / 6 / 3; }
+        
+        .hat{
+            height: 150px;
+            width: 150px;
+        }
